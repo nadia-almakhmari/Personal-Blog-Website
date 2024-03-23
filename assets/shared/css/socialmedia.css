@@ -1,0 +1,18 @@
+
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    color: rgb(0, 0, 0);
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    color: rgb(0, 0, 0);
+  }
+ /* youtube */
+ .fa-youtube {
+   width: 10px; 
+   height: inherit;
+   color: rgb(0, 0, 0);
+ }

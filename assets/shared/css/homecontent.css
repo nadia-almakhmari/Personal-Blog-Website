@@ -1,0 +1,25 @@
+.content {
+    grid-area: content;
+}
+/* Main Content Styles */
+.main-content {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Article Styles */
+  article {
+    margin-bottom: 20px;
+  }
+  
+  article h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  article p {
+    line-height: 1.6;
+  }

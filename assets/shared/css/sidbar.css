@@ -1,0 +1,31 @@
+
+.sidebar {
+    grid-area: sidebar;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    position: relative;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  /* Sidebar links */
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  /* Active/current link */
+  .sidebar a.active {
+    background-color: #CCCCCC;
+    color: #000033;
+  }
+  
+  /* Links on mouse-over */
+  .sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+    

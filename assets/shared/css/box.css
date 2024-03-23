@@ -1,0 +1,33 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+    border-radius: 2%;
+  }
+  
+  /* Style for the columns */
+  .bcontainer {
+    display: flex;
+    gap: 14px;
+    flex-direction: column;
+  }
+  
+  .left-column {
+    flex: 2;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  .right-column {
+    flex: 1;
+    background-color: #ddd;
+    padding: 20px;
+  }
+
+  .th-column {
+    flex: 1;
+    background-color: #ddd;
+    padding: 20px;
+  }

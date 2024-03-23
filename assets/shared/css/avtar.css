@@ -1,0 +1,64 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* Style for the columns */
+.blogcontainer {
+  display: flex;
+}
+
+.left-acolumn {
+  flex: 1;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.right-bcolumn {
+  flex: 3;
+  background-color: #ddd;
+  padding: 20px;
+}
+
+.th-ccolumn {
+  flex: 1;
+  background-color: #ddd;
+  padding: 20px;
+}
+
+figure {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+
+figcaption {
+  background-color: rgba(119, 13, 13, 0.158);
+  color: rgb(0, 0, 0);
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
+
+}
+
+img.avatar {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #0a0802;
+  margin-right: 3rem;
+  align-items: center;
+}
+
+img {
+  width:inherit;
+
+}
